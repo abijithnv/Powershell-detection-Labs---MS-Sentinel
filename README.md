@@ -1,0 +1,1 @@
+# Powershell-detection-Labs---MS-Sentinel

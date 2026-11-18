@@ -89,6 +89,11 @@ Verify the configuration:
 Get-ItemProperty -Path "HKLM:\Software\Microsoft\Windows\Powershell\1\PowershellEngine\ScriptBlockLogging" -Name "EnableScriptBlockLogging"
 ```
 
+
+<img width="895" height="507" alt="image" src="https://github.com/user-attachments/assets/7ec1848c-0d3b-4016-a75c-f8cbe54f7243" />
+
+
+
 ### 4. Verify PowerShell Event Logging
 
 After enabling Script Block Logging:
@@ -104,6 +109,10 @@ After enabling Script Block Logging:
 **Event ID 4104 – Script Block Logging**
 
 This event records PowerShell script block content and is used as the primary event source for this detection.
+
+<img width="897" height="746" alt="image" src="https://github.com/user-attachments/assets/3f926e16-6be0-421f-902c-e22782aa9664" />
+
+
 
 ### 5. Create a Scheduled Analytics Rule
 
@@ -121,6 +130,7 @@ Event
 | project TimeGenerated, Computer, EventID, EventData
 ```
 
+
 **Detection criteria:**
 
 The query looks for PowerShell Script Block Logging events containing:
@@ -130,6 +140,13 @@ The query looks for PowerShell Script Block Logging events containing:
 - `DownloadString` – Method that can retrieve content from a specified URL.
 
 Configured the rule to run on a scheduled basis and enabled incident creation so that matching detections could be generated as security incidents.
+
+<img width="1912" height="1027" alt="image" src="https://github.com/user-attachments/assets/4a20a437-57b5-475e-9bc2-1c162dc41d75" />
+
+<img width="1917" height="1025" alt="image" src="https://github.com/user-attachments/assets/f2279ba0-cfcf-491c-a4b9-f3a30742f98c" />
+
+
+
 
 ### 6. Simulate Suspicious PowerShell Activity
 

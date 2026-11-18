@@ -50,6 +50,13 @@ A Scheduled Analytics Rule is then created in the Microsoft Defender portal to i
 - Added the required Windows PowerShell event log configuration to the existing DCR.
 - Checked heartbeat logs to confirm that the monitoring agent was communicating.
 
+<img width="1917" height="1027" alt="image" src="https://github.com/user-attachments/assets/820eae66-23c2-48c4-bd5c-2752f5823527" />
+<img width="1917" height="1007" alt="image" src="https://github.com/user-attachments/assets/ec50400d-54e0-45be-b2d3-45244fcf5f1d" />
+
+
+
+
+
 ### 3. Enable PowerShell Script Block Logging
 
 Enabled Script Block Logging on the Windows 10 VM to capture PowerShell script execution details.

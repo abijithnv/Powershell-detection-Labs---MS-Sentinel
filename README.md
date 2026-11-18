@@ -162,6 +162,21 @@ This command uses `Invoke-Expression` and includes the `Invoke-WebRequest` strin
 
 The objective is to generate an Event ID 4104 record containing the detection keyword and test whether the configured analytics rule identifies it.
 
+
+### 7. Verify Detection, Alert and Incident Generation
+
+After executing the simulated PowerShell command:
+
+- Navigated to the Microsoft Defender portal and checked the Alerts section.
+- Verified that the Scheduled Analytics Rule successfully detected the simulated PowerShell activity and generated an alert.
+- Opened the alert to review the detection details.
+- Navigated to the Incidents section and verified the corresponding security incident.
+- Reviewed the incident and manually closed it after completing the investigation.
+
+**Result:** Successfully simulated PowerShell activity, detected it through Microsoft Sentinel, verified the generated alert and incident in Microsoft Defender, and completed the investigation by closing the incident.
+
+
+
 ## 📊 Expected Detection Workflow
 
 1. Execute the test PowerShell command on the Windows VM.

@@ -91,7 +91,7 @@ Get-ItemProperty -Path "HKLM:\Software\Microsoft\Windows\Powershell\1\Powershell
 ```
 
 
-<img width="600" height="507" alt="image" src="https://github.com/user-attachments/assets/7ec1848c-0d3b-4016-a75c-f8cbe54f7243" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/7ec1848c-0d3b-4016-a75c-f8cbe54f7243" />
 
 
 

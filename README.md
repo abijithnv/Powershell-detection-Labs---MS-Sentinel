@@ -178,3 +178,10 @@ The detection logic uses specific command strings as indicators. It is not inten
 
 **Project Type:** SOC Home Lab / Detection Engineering  
 **Platform:** Microsoft Sentinel | Microsoft Azure | Windows 10
+
+
+👨‍💻 Author
+
+Abhijith N V
+
+Cybersecurity Researcher | SOC Analyst Aspirant

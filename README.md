@@ -50,7 +50,8 @@ A Scheduled Analytics Rule is then created in the Microsoft Defender portal to i
 - Added the required Windows PowerShell event log configuration to the existing DCR.
 - Checked heartbeat logs to confirm that the monitoring agent was communicating.
 
-<img width="800" alt="image" src="https://github.com/user-attachments/assets/820eae66-23c2-48c4-bd5c-2752f5823527" /> <img width="800" alt="image" src="https://github.com/user-attachments/assets/ec50400d-54e0-45be-b2d3-45244fcf5f1d" />
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/820eae66-23c2-48c4-bd5c-2752f5823527" /> 
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/ec50400d-54e0-45be-b2d3-45244fcf5f1d" />
 
 
 
@@ -90,7 +91,7 @@ Get-ItemProperty -Path "HKLM:\Software\Microsoft\Windows\Powershell\1\Powershell
 ```
 
 
-<img width="895" height="507" alt="image" src="https://github.com/user-attachments/assets/7ec1848c-0d3b-4016-a75c-f8cbe54f7243" />
+<img width="600" height="507" alt="image" src="https://github.com/user-attachments/assets/7ec1848c-0d3b-4016-a75c-f8cbe54f7243" />
 
 
 

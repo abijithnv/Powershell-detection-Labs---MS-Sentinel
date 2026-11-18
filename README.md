@@ -175,6 +175,11 @@ After executing the simulated PowerShell command:
 
 **Result:** Successfully simulated PowerShell activity, detected it through Microsoft Sentinel, verified the generated alert and incident in Microsoft Defender, and completed the investigation by closing the incident.
 
+<img width="1917" height="1035" alt="image" src="https://github.com/user-attachments/assets/83ca2185-8403-4efd-b7bc-69cf665a22c4" />
+
+
+<img width="1917" height="1008" alt="image" src="https://github.com/user-attachments/assets/d172d4bc-e051-4f49-a471-080443beebdf" />
+
 
 
 ## 📊 Expected Detection Workflow
